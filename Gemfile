@@ -12,7 +12,7 @@ gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
 gem "figaro"
-
+gem 'rails_12factor', group: :production
 gem 'cloudinary'
 gem 'haml'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
