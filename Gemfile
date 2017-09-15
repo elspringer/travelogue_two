@@ -6,14 +6,13 @@ git_source(:github) do |repo_name|
 end
 
 gem "jquery-rails"
-
 gem "bootstrap-sass"
 gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
 gem "figaro"
 gem 'rails_12factor', group: :production
-gem 'cloudinary'
+gem 'cloudinary', '1.1.7'
 gem 'haml'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
@@ -41,6 +40,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+source 'https://rails-assets.org' do
+  gem "rails-assets-underscore"
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
