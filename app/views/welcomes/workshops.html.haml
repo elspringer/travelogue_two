@@ -1,0 +1,43 @@
+%div.workshops-page
+  %div.workshops
+    %h1 WORKSHOPS & EVENTS
+    %h3.workshop-details Travelogue brings women together for travel-related workshops, events and coffee talks. Check out some photos from our past events below!
+
+  %div.carousel-color
+
+    .carousel.event-carousel.slide{:id=>"myCarousel", :data => {:ride => "carousel"}}
+      %ol.carousel-indicators
+        %li.active{:data => {:target => "myCarousel", :slide_to => "0"}}
+        %li{:data => {:target => "myCarousel", :slide_to => "1"}}
+        %li{:data => {:target => "myCarousel", :slide_to => "2"}}
+        %li{:data => {:target => "myCarousel", :slide_to => "3"}}
+        %li{:data => {:target => "myCarousel", :slide_to => "4"}}
+        %li{:data => {:target => "myCarousel", :slide_to => "5"}}
+        %li{:data => {:target => "myCarousel", :slide_to => "6"}}
+
+
+      .carousel-inner
+        .item.active
+          %img{:src => asset_path("southafricanfood.jpg"), :alt => ""}/
+        .item
+          %img{:src => asset_path("cooking_pizza.jpg"), :alt => ""}/
+        .item
+          %img{:src => asset_path("travel_coffee_talk.jpg"), :alt => ""}/
+        .item
+          %img{:src => asset_path("moroccoboat.jpg"), :alt => ""}/
+        .item
+          %img{:src => asset_path("marble_workshop.jpg"), :alt => ""}/
+        .item
+          %img{:src => asset_path("indian_yoga.jpg"), :alt => ""}/
+        .item
+          = cl_image_tag "paris-travelogue_she4a6", :alt => ""
+
+
+      %a.left.carousel-control{:href => "#myCarousel", :role => "button", :data => {:slide => "prev"}}
+        %span.glyphicon.glyphicon-chevron-left
+        %span.sr-only Previous
+      %a.right.carousel-control{:href => "#myCarousel", :data => {:slide => "next"}}
+        %span.glyphicon.glyphicon-chevron-right
+        %span.sr-only Next
+    %input.community-button.btn.btn-primary(type="button" value="Join the Community!" onclick="location.href = 'https://www.facebook.com/groups/281904978888004/';")
+

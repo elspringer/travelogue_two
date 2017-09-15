@@ -1,0 +1,68 @@
+// About page
+
+.about {
+  text-align: center;
+  padding-top: 50px;
+  h3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+.about-section {
+
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #90d0b5;
+
+  padding-bottom: 100px;
+  border-top: 1px dotted #112147;
+  border-bottom: 1px dotted #112147;
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    color: #ea502f;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+   .about-info {
+  padding-left: 100px;
+  font-size: 16px;
+
+  }
+  .about-information{
+    max-width: 1190px;
+  }
+  .about-one {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .about-two {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1px dotted #112147;
+  }
+
+}
+
+
+.about_photo {
+  width:300px;
+  height:450px;
+  position: relative;
+  border-radius: 1%;
+  .hana {
+    width: inherit;
+    height: 100%;
+   }
+   .erinn {
+    width: inherit;
+    height: auto;
+   }
+}
+
+.facebook-button {
+  background-color: #ef9e7f;
+  color: #112147;
+  border: 1px dotted #112147;
+}

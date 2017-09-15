@@ -1,0 +1,18 @@
+// Import your layouts CSS files here.
+// Examples:
+// @import "dashboard";
+// @import "profile";
+// @import "map";
+
+.photo {
+  width: 100%;
+  // @include background-image("womentravel.png");
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.photo img {
+  height: 100%;
+  width: 100%;
+}

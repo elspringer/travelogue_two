@@ -1,0 +1,170 @@
+// Specific CSS for your home-page
+
+body {
+  background: #fafafa;
+}
+ .flex-item {
+  border-radius: 1%;
+    .homepage-boxes {
+  text-align: center;
+  }
+  .image-thumbs {
+  border-radius: 1%;
+  }
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  margin-top: 155px;
+  margin-left: 50px;
+  height: 350px;
+  width: 600px;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  min-height: 350px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-item {
+  background: white;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  min-height: 100%;
+  text-align: center;
+  .image-thumbs {
+    overflow: hidden;
+    height: 300px;
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+}
+
+.photo {
+  width: 100%;
+  // @include background-image("womentravel.png");
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+
+  p {
+    font-size: 35px;
+    padding-top: 200px;
+    padding-left: 50px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #112147;
+  }
+}
+
+// .community-button {
+//   background-color: #ea502f;
+//   color: #112147;
+//   font-size: 18px;
+//   padding: 20px 15px 20px 15px;
+//   border: 1px dotted #112147;
+//   margin-top: 25px;
+// }
+
+// .community-button:hover {
+//   background-color: #ef9e7f;
+//   color: #112147;
+//   font-size: 18px;
+//   padding: 20px 15px 20px 15px;
+//   border: 1px dotted #112147;
+// }
+
+.below-main {
+  text-align: center;
+  padding: 50px 150px 50px 150px;
+}
+
+
+.title {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 30px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+}
+
+
+.more-info {
+  background-color: #ef9e7f;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-top: 1px dotted #112147;
+  border-bottom: 1px dotted #112147;
+  margin: auto;
+  h3 {
+    text-align: center;
+  }
+  .icon {
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+}
+
+// video
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #f4f4f4 !important;
+    overflow: hidden;
+    max-height: 1035px;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+

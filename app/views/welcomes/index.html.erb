@@ -1,0 +1,57 @@
+<div class="flex row">
+  <div class="homepage-hero-module">
+      <div class="video-container">
+          <div class="filter"></div>
+          <video autoplay loop class="fillWidth">
+              <source src="<%= video_path "Honeymoon.mp4" %>" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              <source src="<%= video_path "Honeymoon.webm" %>" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+          <div class="poster hidden">
+              <img src="videos/Honeymoon.jpg" alt="">
+          </div>
+      </div>
+  </div>
+  <div class="logo">
+      <%= cl_image_tag "TRAVELOGUE-LOGO-FULL-WHITE_kqe6dz" %>
+  </div>
+</div>
+
+<div class="below-main">
+  <h3>
+    Travelogue designs cozy, unique travel experiences for a social community of adventurous women.
+  </h3>
+  <input type="button" class="community-button btn btn-primary" value="Join the Community!" onclick="location.href = 'https://www.facebook.com/groups/281904978888004/'">
+</div>
+
+
+
+  <div>
+    <ul class="flex-container">
+      <li class="flex-item home-boxes">
+        <h3 class="homepage-boxes">
+          <%= link_to 'Surf Retreat in Basque', basque_path %>
+        </h3>
+        <div class="image-thumbs">
+          <%= cl_image_tag "pays-basque_i27mjw", class: "thumbs" %>
+        </div>
+      </li>
+      <li class="flex-item home-boxes">
+        <h3 class="homepage-boxes">
+          <%= link_to 'French Fall in Marseille', marseille_path %>
+        </h3>
+        <div class="image-thumbs">
+          <%= cl_image_tag "land-water_p55xxn", class: "thumbs" %>
+        </div>
+      </li>
+      <li class="flex-item home-boxes">
+        <h3 class="homepage-boxes">
+          <%= link_to 'Workshops', workshops_path %>
+        </h3>
+        <div class="image-thumbs">
+          <%= cl_image_tag "moroccoboat_ju2dav", class: "thumbs" %>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+

@@ -1,0 +1,43 @@
+// workshops page
+.workshops-page {
+  .workshops {
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    max-width: 70%;
+    h3 {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      text-align:center;
+    }
+  }
+  .carousel-color {
+    background-color: #90d0b5;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-top: 1px dotted #112147;
+    border-bottom: 1px dotted #112147;
+    h3 {
+      padding-bottom: 50px;
+    }
+    .event-carousel {
+      max-height: 500px;
+      max-width: 725px;
+      margin: auto;
+      overflow: hidden;
+    }
+    .event-carousel img {
+      height: auto;
+      width: 100%;
+    }
+    .carousel-inner .item img {
+      height: 500px;
+    }
+    .community-button {
+      margin-top: 75px;
+    }
+  }
+}
+
+
