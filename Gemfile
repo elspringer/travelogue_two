@@ -14,6 +14,10 @@ gem "figaro"
 gem 'rails_12factor', group: :production
 gem 'cloudinary', '1.1.7'
 gem 'haml'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-plugin'
+end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 # Use postgresql as the database for Active Record
@@ -40,10 +44,6 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
-source 'https://rails-assets.org' do
-  gem "rails-assets-underscore"
-end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

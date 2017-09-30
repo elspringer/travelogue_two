@@ -7,7 +7,7 @@
               <source src="<%= video_path "Honeymoon.webm" %>" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
           </video>
           <div class="poster hidden">
-              <img src="videos/Honeymoon.jpg" alt="">
+              <source src="/assets/videos/Honeymoon.jpg" alt="">
           </div>
       </div>
   </div>
@@ -27,20 +27,21 @@
 
   <div>
     <ul class="flex-container">
-      <li class="flex-item home-boxes">
-        <h3 class="homepage-boxes">
-          <%= link_to 'Surf Retreat in Basque', basque_path %>
-        </h3>
-        <div class="image-thumbs">
-          <%= cl_image_tag "pays-basque_i27mjw", class: "thumbs" %>
-        </div>
-      </li>
+
       <li class="flex-item home-boxes">
         <h3 class="homepage-boxes">
           <%= link_to 'French Fall in Marseille', marseille_path %>
         </h3>
         <div class="image-thumbs">
           <%= cl_image_tag "land-water_p55xxn", class: "thumbs" %>
+        </div>
+      </li>
+      <li class="flex-item home-boxes">
+        <h3 class="homepage-boxes">
+          <%= link_to 'Learn About Travelogue', about_path %>
+        </h3>
+        <div class="image-thumbs">
+          <%= cl_image_tag "pays-basque_i27mjw", class: "thumbs" %>
         </div>
       </li>
       <li class="flex-item home-boxes">

@@ -32,37 +32,39 @@
     %div.retreat-center
       %h1.cover Fall in Marseille
       %h3.cover Relax, Rewind and Raw Cosmetic Creation
-      %a.btn.btn-primary.community-button{"data-target" => "#basquesModal", "data-toggle" => "modal", :type => "button"}
-        Apply to Join!
-      %div#basquesModal.modal.fade{"aria-labelledby" => "basquesModalLabel", :role => "dialog", :tabindex => "-1"}
-        %div.modal-dialog{:role => "document"}
-          %div.modal-content
-            %div.modal-body
-              %div.typeform-widget{"data-url" => "https://travelogue1.typeform.com/to/hwK5Bt", :style => "width: 100%; height: 500px;"}
-              = content_for :javascript do
-                (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
-              %div{:style => "font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"}
-                powered by
-                %a{:href => "https://www.typeform.com/examples/?utm_campaign=hwK5Bt&utm_source=typeform.com-9436401-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN", :style => "color: #999", :target => "_blank"} Typeform
+      / %a.btn.btn-primary.community-button{"data-target" => "#basquesModal", "data-toggle" => "modal", :type => "button"}
+      /   Apply to Join!
+      / %div#basquesModal.modal.fade{"aria-labelledby" => "basquesModalLabel", :role => "dialog", :tabindex => "-1"}
+      /   %div.modal-dialog{:role => "document"}
+      /     %div.modal-content
+      /       %div.modal-body
+      /         %div.typeform-widget{"data-url" => "https://travelogue1.typeform.com/to/hwK5Bt", :style => "width: 100%; height: 500px;"}
+      /         = content_for :javascript do
+      /           (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+      /         %div{:style => "font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"}
+      /           powered by
+      /           %a{:href => "https://www.typeform.com/examples/?utm_campaign=hwK5Bt&utm_source=typeform.com-9436401-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN", :style => "color: #999", :target => "_blank"} Typeform
 
 
-            %div.modal-footer
-              %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
+      /       %div.modal-footer
+      /         %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
 
 
 
 %ul.flex-container.basques-content
   %li.flex-item-1
     %h1 Yoga in Marseille
-    %h2 October 19-22, 2017 | ~ €500-600
+    %h2 October 19-22, 2017 | ~ €500
     %p You’ve got four days to travel with six other women. Some may be strangers but after a few days, you’ll become a traveling tribe.
     %p Marseille--shaped by an intersection of mountains, forests, the Mediterranean sea and old school ports--is the oldest city in France making it truly the French OG.
     %p You'll land in Marseille on Saturday and go straight to a beautiful house in Auriol. It's in the middle of the mountains and forest, yet still a stone's throw from the sea.
     %p October is a beautiful time to enjoy the south of France with way fewer tourists and a tad less heat.
-    %p Our host will be Tinas Fleurs, is an amazing woman who will teach us yoga, meditation, massage and acro yoga to learn how to relax and handle being in shape while still being on the grind in our everyday lives.
-    %p She'll also host a workshop around natural cosmetics so you can walk away knowing how to create your own.
+    %p Our host will be Cécile, an amazing woman who will teach us yoga, meditation, and massage to learn how to relax and handle being in shape while still being on the grind in our everyday lives
+    %p Valérie will host a workshop around natural cosmetics so you can walk away knowing how to create your own.
     %p Also, one day we'll spend time in Marseille seaside, go visit Vallon des Auffes or discover more food and culture in the city limits.
-    %p Please email for a fixed price based upon room choice.
+    %p It's going to be all about food, relaxation, swimming and natural cosmetics products, essentials oils, plants & DIY for you travel lovers.
+    %p Email #{mail_to "hana@travelogue.co", "hana@travelogue.co"} for more information.
+
     %p= link_to "For more details visit here!", "https://www.dropbox.com/s/6eyqw52fqvo3rka/marseille-retreat-program.pdf?dl=0", :target => "_blank"
 
   / %li.flex-item
