@@ -5,6 +5,7 @@ body {
 }
  .flex-item {
   border-radius: 1%;
+  background: white;
     .homepage-boxes {
   text-align: center;
   }
@@ -37,7 +38,9 @@ body {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-
+.basques-content {
+  padding-bottom: 20px;
+}
 .lower-boxes {
   padding-top: 100px;
   padding-bottom: 50px;
