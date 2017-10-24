@@ -40,6 +40,7 @@ body {
 
 .lower-boxes {
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 .home-boxes {
   max-width: 25%;
@@ -80,6 +81,24 @@ body {
     padding-left: 50px;
     font-family: 'Hammersmith One', sans-serif;
     color: #112147;
+  }
+}
+
+.footer {
+  background-color: #90d0b5;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #469AE0;
+  .footer-links {
+    padding-top: 30px;
+  }
+  .social-buttons {
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+  .mail-link {
+    text-decoration: underline;
   }
 }
 
@@ -178,4 +197,5 @@ body {
 .video-container video.fillWidth {
     width: 100%;
 }
+
 

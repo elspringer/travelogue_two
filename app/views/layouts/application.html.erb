@@ -31,12 +31,14 @@
           Trips <i class="fa fa-angle-double-down"></i>
         <% end %>
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><%= link_to "Yoga in Marseille", marseille_path%></li>
+          <li><%= link_to "Yoga in Marseille", marseille_path %></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
     <%= yield %>
+    <%= render "shared/footer" %>
+
   </body>
 </html>

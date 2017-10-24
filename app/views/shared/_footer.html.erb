@@ -1,0 +1,10 @@
+<div class="footer">
+<%= link_to 'https://www.instagram.com/travelogue.co/', target: "_blank", class:"social-buttons" do %>
+      <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+    <% end %>
+<%= link_to 'https://www.facebook.com/travelogue.co/', target: "_blank", class:"social-buttons" do %>
+      <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+    <% end %>
+<p class="footer-links"><%= link_to 'Home', root_path %> | <%= link_to 'About Travelogue', about_path  %> | <%= link_to 'Workshops & Events', workshops_path  %> | <%= link_to 'Marseille Retreat', marseille_path %> </p>
+<p>Want to know more about Travelogue? Drop us a <%= mail_to 'hana@travelogue.com', "line", class:"mail-link" %>.</p>
+</div>
