@@ -24,23 +24,27 @@
 </div>
 
   <div>
-    <h1 class="join-retreat" style="text-align: center">Why You Should Join a Retreat</h1>
+    <h1 class="join-retreat" style="text-align: center">Why You Should Join</h1>
     <ul class="flex-container">
 
-      <li class="flex-item home-boxes">
+      <li class="home-boxes">
+      <span><%= image_tag "map" %></span>
         <h3 class="homepage-boxes">
           Make New Friends <br>
           From Around the World
         </h3>
         <p>Meeting new faces is always a good idea and makes one happy! Travel with like-minded women who are all open for new adventures and learning new skills.</p>
       </li>
-      <li class="flex-item home-boxes">
+      <li class="home-boxes">
+      <span><%= image_tag "compass" %></span>
         <h3 class="homepage-boxes">
           Learn Something New
         </h3>
         <p>Whether we are learning how to surfboard, creating our own cosmetics or just taking the extra time to do yoga and relax, you'll learn new skills by the end of the retreat. Escape your everyday routine! </p>
       </li>
-      <li class="flex-item home-boxes">
+      <li class="home-boxes join-right">
+      <span><%= image_tag "suitcase" %></span>
+
         <h3 class="homepage-boxes">
           Discover Like a Local
         </h3>
@@ -49,32 +53,35 @@
     </ul>
   </div>
 
-  <div>
+  <div class="lower-boxes">
     <ul class="flex-container">
 
-      <li class="flex-item home-boxes">
-        <h3 class="homepage-boxes">
-          <%= link_to 'French Fall in Marseille', marseille_path %>
-        </h3>
+      <li class="home-boxes">
+
         <div class="image-thumbs">
           <%= cl_image_tag "land-water_p55xxn", class: "thumbs" %>
         </div>
-      </li>
-      <li class="flex-item home-boxes">
         <h3 class="homepage-boxes">
-          <%= link_to 'Learn About Travelogue', about_path %>
+          <%= link_to 'French Fall in Marseille', marseille_path %>
         </h3>
+      </li>
+      <li class="home-boxes">
+
         <div class="image-thumbs">
           <%= cl_image_tag "pays-basque_i27mjw", class: "thumbs" %>
         </div>
-      </li>
-      <li class="flex-item home-boxes">
         <h3 class="homepage-boxes">
-          <%= link_to 'Workshops', workshops_path %>
+          <%= link_to 'Learn About Travelogue', about_path %>
         </h3>
+      </li>
+      <li class="home-boxes">
+
         <div class="image-thumbs">
           <%= cl_image_tag "moroccoboat_ju2dav", class: "thumbs" %>
         </div>
+        <h3 class="homepage-boxes">
+          <%= link_to 'Travelogue Workshops', workshops_path %>
+        </h3>
       </li>
     </ul>
   </div>

@@ -9,7 +9,7 @@ body {
   text-align: center;
   }
   .image-thumbs {
-  border-radius: 1%;
+  border-radius: 50%;
   }
 }
 .logo {
@@ -28,7 +28,7 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
-  min-height: 350px;
+
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -37,25 +37,36 @@ body {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-.flex-item {
-  background: white;
-  padding: 5px;
-  // width: 200px;
-  // height: 150px;
-  margin-top: 10px;
-  margin-bottom: 100px;
-  min-height: 100%;
+
+.lower-boxes {
+  padding-top: 100px;
+}
+.home-boxes {
+  max-width: 25%;
+  min-width: 25%;
   text-align: center;
   .image-thumbs {
-    overflow: hidden;
-    height: 300px;
     img {
-      width: auto;
-      height: 100%;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
     }
+  }
+  p {
+    text-align: center;
   }
 }
 
+.join-boxes {
+  text-align: center;
+  p {
+    padding: 5px 15px 5px 15px;
+  }
+}
+.join-right {
+  padding-right: 10px;
+}
 .photo {
   width: 100%;
   // @include background-image("womentravel.png");
