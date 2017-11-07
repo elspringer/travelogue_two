@@ -154,6 +154,31 @@ body {
   }
 }
 
+.testimonials {
+  width: 80%;
+  margin: auto;
+  margin-top: 0;
+  padding-bottom: 50px;
+  padding-top: 70px;
+  margin-bottom:  70px;
+}
+.testimonial-photo  {
+
+ border-radius: 50%;
+ margin-left: 35px;
+ height: 150px;
+ width: 150px;
+}
+.testimonial-name {
+  font-weight: bold;
+}
+.testimonial {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // video
 
 .homepage-hero-module {
