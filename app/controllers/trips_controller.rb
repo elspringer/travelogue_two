@@ -8,4 +8,7 @@ class TripsController < ApplicationController
   def marseille
 
   end
+
+  def bali
+  end
 end
