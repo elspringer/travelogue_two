@@ -21,12 +21,12 @@
           = cl_image_tag "marseille-port_ocivi6", :alt => ""
         .item
           = cl_image_tag "land-water_p55xxn", :alt => ""
-      %a.left.carousel-control{:href => "#retreatCarousel", :role => "button", :data => {:slide => "prev"}}
-        %span.glyphicon.glyphicon-chevron-left
-        %span.sr-only Previous
-      %a.right.carousel-control{:href => "#retreatCarousel", :data => {:slide => "next"}}
-        %span.glyphicon.glyphicon-chevron-right
-        %span.sr-only Next
+      / %a.left.carousel-control{:href => "#retreatCarousel", :role => "button", :data => {:slide => "prev"}}
+      /   %span.glyphicon.glyphicon-chevron-left
+      /   %span.sr-only Previous
+      / %a.right.carousel-control{:href => "#retreatCarousel", :data => {:slide => "next"}}
+      /   %span.glyphicon.glyphicon-chevron-right
+      /   %span.sr-only Next
 
 
     %div.retreat-center
@@ -53,19 +53,20 @@
 
 %ul.flex-container.basques-content
   %li.flex-item-1
-    %h1 Just Relax Retreat in Provence France
-    %h2 November 16-19, 2017 | ~ €500
-    %p You’ve got four days to travel with six other women. Some may be strangers but after a few days, you’ll become a traveling tribe.
-    %p Marseille--shaped by an intersection of mountains, forests, the Mediterranean sea and old school ports--is the oldest city in France making it truly the French OG.
-    %p You'll land in Marseille on Saturday and go straight to a beautiful house in Auriol. It's in the middle of the mountains and forest, yet still a stone's throw from the sea.
-    %p November is a beautiful time to enjoy the south of France with way fewer tourists and a tad less heat.
-    %p Our host will be Cécile, an amazing woman who will teach us yoga, meditation, and massage to learn how to relax and handle being in shape while still being on the grind in our everyday lives
-    %p Valérie will host a workshop around natural cosmetics so you can walk away knowing how to create your own.
-    %p Also, one day we'll spend time in Marseille seaside, go visit Vallon des Auffes or discover more food and culture in the city limits.
-    %p It's going to be all about food, relaxation, swimming and natural cosmetics products, essentials oils, plants & DIY for you travel lovers.
-    %p Email #{mail_to "hana@travelogue.co", "hana@travelogue.co"} for more information.
+    %div.retreat-information
+      %h1 Just Relax Retreat in Provence France
+      %h2 November 16-19, 2017 | ~ €500
+      %p You’ve got four days to travel with six other women. Some may be strangers but after a few days, you’ll become a traveling tribe.
+      %p Marseille--shaped by an intersection of mountains, forests, the Mediterranean sea and old school ports--is the oldest city in France making it truly the French OG.
+      %p You'll land in Marseille on Saturday and go straight to a beautiful house in Auriol. It's in the middle of the mountains and forest, yet still a stone's throw from the sea.
+      %p November is a beautiful time to enjoy the south of France with way fewer tourists and a tad less heat.
+      %p Our host will be Cécile, an amazing woman who will teach us yoga, meditation, and massage to learn how to relax and handle being in shape while still being on the grind in our everyday lives
+      %p Valérie will host a workshop around natural cosmetics so you can walk away knowing how to create your own.
+      %p Also, one day we'll spend time in Marseille seaside, go visit Vallon des Auffes or discover more food and culture in the city limits.
+      %p It's going to be all about food, relaxation, swimming and natural cosmetics products, essentials oils, plants & DIY for you travel lovers.
+      %p Email #{mail_to "hana@travelogue.co", "hana@travelogue.co"} for more information.
 
-    %p= link_to "For more details visit here!", "https://www.dropbox.com/s/tqfxw3yv2o2jd8y/relax-rewind-cosmetic-retreat-program.pdf?dl=0", :target => "_blank"
+      %p= link_to "For more details visit here!", "https://www.dropbox.com/s/tqfxw3yv2o2jd8y/relax-rewind-cosmetic-retreat-program.pdf?dl=0", :target => "_blank"
 
   %li.flex-item
     %h2 Retreat Schedule
