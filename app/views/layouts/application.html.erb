@@ -21,10 +21,10 @@
     <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <%= link_to 'About', about_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to 'Workshops & Events', workshops_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to 'Events', workshops_path, class: "navbar-wagon-item navbar-wagon-link" %>
     <%= link_to 'Blog', 'https://medium.com/travelogue-co', class: "navbar-wagon-item navbar-wagon-link" %>
 
-    <div class="navbar-wagon-item">
+    <div class="navbar-wagon-item dropdown-link">
       <div class="dropdown">
         <%= link_to '#', class:"navbar-wagon-link dropdown-toggle", id:'navbar-wagon-menu', 'data-toggle':"dropdown" do %>
           Trips <i class="fa fa-angle-double-down"></i>
